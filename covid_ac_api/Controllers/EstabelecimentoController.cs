@@ -11,7 +11,7 @@ using covid_ac_api.Models;
 namespace covid_ac_api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]   //localhost:5001/EstabelecimentoLeito
+    [Route("[controller]")]   //localhost:5001/Estabelecimento
     public class EstabelecimentoController : ControllerBase
     {
         [HttpGet()] //localhost:5001/Estabelecimento
