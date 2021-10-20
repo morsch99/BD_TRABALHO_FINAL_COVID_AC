@@ -21,7 +21,7 @@ namespace covid_ac_api.DataBase
             {
                 conn.Open(); //abrindo conexao
 
-                string sql = "SELECT ID,Idade,Sexo,Raca,Data_de_Nascimento from pessoa where fk_Vacina_Codigo = 87"; //select
+                string sql = "SELECT ID,Idade,Sexo,Raca,Data_de_Nascimento,fk_Vacina_Codigo from pessoa"; //select
                 MySqlCommand cmd = new MySqlCommand(sql, conn); //configurando mySQLCommand com a string de conexao e o comando SQL
                 MySqlDataReader rdr = cmd.ExecuteReader(); //Executando o comando
 
@@ -32,7 +32,8 @@ namespace covid_ac_api.DataBase
                     pessoa.idade = Convert.ToInt32(rdr[1].ToString());
                     pessoa.sexo = rdr[2].ToString();
                     pessoa.raca = rdr[3].ToString();
-                    pessoa.dataNascimento = Convert.ToDateTime(rdr[4].ToString()).ToShortDateString();   
+                    pessoa.dataNascimento = Convert.ToDateTime(rdr[4].ToString()).ToShortDateString();  
+                    pessoa.fk_Vacina_Codigo = Convert.ToInt32(rdr[5].ToString()); 
                     pessoas.Add(pessoa);                 
                 } 
                 rdr.Close(); //terminando a execucao

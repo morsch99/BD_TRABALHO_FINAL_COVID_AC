@@ -10,5 +10,7 @@ namespace covid_ac_api.Models
         public string raca{get;set;}
         public string dataNascimento{get;set;}
 
+        public int fk_Vacina_Codigo{get;set;}
+
     }
 }

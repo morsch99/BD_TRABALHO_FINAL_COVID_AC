@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = covid_ac_api
-build_property.ProjectDir = C:\Users\Pedro\covid_ac_api\
+build_property.ProjectDir = c:\Users\Pedro\Documents\GitHub\BD_TRABALHO_FINAL_COVID_AC\covid_ac_api\
