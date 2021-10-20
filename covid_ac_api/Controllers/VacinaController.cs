@@ -15,7 +15,7 @@ namespace covid_ac_api.Controllers
     public class VacinaController : ControllerBase
     {
         [HttpGet] 
-        public ActionResult<int> getCountVacinaCodigo() 
+        public ActionResult<List<Vacina>> getCountVacinaCodigo() 
         {
             ConsultaVacina consultaVacina = new ConsultaVacina(); //Instanciamento da classe 
             

@@ -1288,11 +1288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pedro\\covid_ac_api\\covid_ac_api.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro\\Documents\\GitHub\\BD_TRABALHO_FINAL_COVID_AC\\covid_ac_api\\covid_ac_api.csproj",
       "projectName": "covid_ac_api",
-      "projectPath": "C:\\Users\\Pedro\\covid_ac_api\\covid_ac_api.csproj",
+      "projectPath": "C:\\Users\\Pedro\\Documents\\GitHub\\BD_TRABALHO_FINAL_COVID_AC\\covid_ac_api\\covid_ac_api.csproj",
       "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pedro\\covid_ac_api\\obj\\",
+      "outputPath": "C:\\Users\\Pedro\\Documents\\GitHub\\BD_TRABALHO_FINAL_COVID_AC\\covid_ac_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
